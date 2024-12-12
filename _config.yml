@@ -121,7 +121,7 @@ zotero_username: # your zotero username
 
 # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
 # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-google_analytics: G-F0JQDVVZT7 # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
@@ -130,22 +130,22 @@ openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX
 google_site_verification: # your google-site-verification ID (Google Search Console)
 bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 
-# -----------------------------------------------------------------------------
-# Blog
-# -----------------------------------------------------------------------------
+# # -----------------------------------------------------------------------------
+# # Blog
+# # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
-permalink: /blog/:year/:title/
-lsi: false # produce an index for related posts
+# blog_name: al-folio # blog_name will be displayed in your blog page
+# blog_description: a simple whitespace theme for academics
+# permalink: /blog/:year/:title/
+# lsi: false # produce an index for related posts
 
-# Pagination
-pagination:
-  enabled: false
+# # Pagination
+# pagination:
+#   enabled: false
 
-related_blog_posts:
-  enabled: false
-  max_related: 5
+# related_blog_posts:
+#   enabled: false
+#   max_related: 5
 
 # # Giscus comments (RECOMMENDED)
 # # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
@@ -177,38 +177,38 @@ related_blog_posts:
 #       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
 #         published_date: 2024-05-14
 
-# -----------------------------------------------------------------------------
-# Newsletter
-# -----------------------------------------------------------------------------
+# # -----------------------------------------------------------------------------
+# # Newsletter
+# # -----------------------------------------------------------------------------
 
-newsletter:
-  enabled: false
-  endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
-  # https://loops.so/docs/forms/custom-form
+# newsletter:
+#   enabled: false
+#   endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
+#   # https://loops.so/docs/forms/custom-form
 
-# -----------------------------------------------------------------------------
-# Collections
-# -----------------------------------------------------------------------------
+# # -----------------------------------------------------------------------------
+# # Collections
+# # -----------------------------------------------------------------------------
 
-collections:
-  news:
-    defaults:
-      layout: post
-    output: true
-    permalink: /:collection/:title/
-  projects:
-    output: true
-    permalink: /:collection/:title/
+# collections:
+#   news:
+#     defaults:
+#       layout: post
+#     output: true
+#     permalink: /:collection/:title/
+#   projects:
+#     output: true
+#     permalink: /:collection/:title/
 
-announcements:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+# announcements:
+#   enabled: true
+#   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+#   limit: 5 # leave blank to include all the news in the `_news` folder
 
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+# latest_posts:
+#   enabled: true
+#   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+#   limit: 3 # leave blank to include all the blog posts
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
